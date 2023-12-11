@@ -50,7 +50,7 @@
     margin-bottom: 10px;
 }
 .container-description {
-    color: var(--Dark-03, #727272);
+    color: #727272;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -112,12 +112,12 @@
 }
 
 .features-title .quick {
-    color: var(--Dark-03, #727272);
+    color: #727272;
     font-size: 40px;
     font-weight: 500;
 }
 .features-title .of {
-    color: var(--Dark-01, #131313);
+    color: #131313;
     font-size: 40px;
     font-weight: 700;
 }
@@ -226,13 +226,21 @@
     display: flex;
     justify-content: space-evenly;
 }
-.boxs > div {
+.boxs .box-1 {
     width: 240px 240px;
     border-radius: 8px;
     border: 1px solid #ff900e;
     padding: 30px;
     text-align: center;
 }
+.box-1 {
+    transition: transform 0.3s;
+}
+.box-1:hover {
+    transform: scale(0.8);
+    background-color: hsla(108, 83%, 59%, 0.346);
+}
+
 .box-score {
     color: #424242;
     font-size: 45px;
