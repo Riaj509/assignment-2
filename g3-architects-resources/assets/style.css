@@ -357,7 +357,7 @@ footer
     }
 
     .features-more {
-        flex-direction: column-reverse;
+        flex-direction: column;
         margin: 130px 0px 0px 10px;
     }
     .features-more .ig {
@@ -430,7 +430,7 @@ footer
     }
     .sponsors {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         row-gap: 100px;
         filter: grayscale(100%);
         margin-bottom: 100px;
